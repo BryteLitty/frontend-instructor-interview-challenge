@@ -31,7 +31,7 @@ You can customize the appearance of the rating component by modifying the CSS st
 ### Dependencies
 This rating component uses the following dependencies:
 
-Google Fonts - Overpass: for the font used in the component.
+Google Fonts - [Overpass](https://fonts.google.com/specimen/Overpass): for the font used in the component.
 
 
 ##### Author
@@ -41,4 +41,4 @@ Google Fonts - Overpass: for the font used in the component.
 
 
 ### Acknowledgments
-- Thanks Azubi Africa for the Design Inspiration and project idea
+Thanks Azubi Africa for the Design Inspiration and project idea
