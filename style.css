@@ -1,0 +1,104 @@
+
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+/* color variables */
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: var(--white);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+}
+
+.star-img-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-blue);
+    margin-bottom: 20px;
+}
+
+.star-img-circle img {
+    height: 15px;
+}
+.card {
+    width: 30%;
+    margin: 15% auto;
+    background-color: var(--very-dark-blue);
+    padding: 3%;
+    border-radius: 30px;
+}
+
+.intro-text,
+.appreciation-text {
+    color: var(--medium-grey);
+    margin: 20px 0;
+}
+.flex-rates {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+    color: var(--medium-grey);
+
+}
+
+.rates {
+    background-color: var(--dark-blue);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-submit {
+    background-color: var(--orange);
+    width: 100%;
+    border: none;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 22.5px;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+/* Thank you card */
+.thank-you-card {
+    text-align: center;
+    padding-top: 4%;
+    display: none;
+}
+
+.display-rating {
+    margin: 25px auto;
+    background-color: var(--dark-blue);
+    width: 70%;
+    padding: 9px;
+    border-radius: 22.5px;
+    color: var(--orange);
+}
+
